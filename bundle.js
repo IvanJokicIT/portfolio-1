@@ -216,7 +216,7 @@ function portfolioComponent () {
   function unhoverPortfolio() { yo.update(element, template())
   }
   function openNewTab() {
-    var url = "https://ninabreznik.github.io/portfolioquiz/"
+    var url = "https://ana-esova.github.io/portfolioquiz/"
     var tab = window.open(url, '_blank')
     tab.focus()
   }
@@ -287,7 +287,7 @@ function footerComponent () {
       <a href="mailto:ana.arsen@gmail.com " target="_blank">
         <i class="${css.icon} fa fa-envelope" aria-hidden="true"></i>
       </a>
-      <a href="https://rs.linkedin.com/in/arsenovicana">
+      <a href="https://rs.linkedin.com/in/arsenovicana" target="_blank">
        <i class="${css.icon} fa fa-linkedin" aria-hidden="true"></i>
       </a>
     </div>
