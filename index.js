@@ -200,7 +200,7 @@ function portfolioComponent () {
   function unhoverPortfolio() { yo.update(element, template())
   }
   function openNewTab() {
-    var url = "https://github.com/ana-esova/portfolioquiz/"
+    var url = "https://github.com/ana-esova/quiz/"
     var tab = window.open(url, '_blank')
     tab.focus()
   }
